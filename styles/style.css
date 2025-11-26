@@ -1,8 +1,54 @@
-h1 {
-  font-family: "Parkinsans", sans-serif;
-  font-weight: bold;
+:root {
+  --branding-color: #966cb8;
+  --secondary-color: white;
+  --head-font: "Montserrat Alternates", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--head-font);
 }
 p {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Parkinsans", sans-serif;
+}
+.hero {
+  background-color: #ede6fc;
+  text-align: center;
+  padding: 130px 20px;
+}
+.hero p {
+  font-size: 36px;
+  margin: 0;
+  color: var(--branding-color);
+}
+.hero h1 {
+  font-size: 80px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.5;
+  color: var(--branding-color);
+}
+.hero h2 {
+  font-size: 24px;
+  line-height: 2;
   font-weight: normal;
+  color: var(--branding-color);
+}
+
+.btn-branding {
+  background-color: var(--branding-color);
+  font-size: 18px;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 4px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  padding: 13px 20px;
+  cursor: pointer;
+}
+.btn-branding:hover {
+  background-color: var(--secondary-color);
+  color: var(--branding-color);
 }
