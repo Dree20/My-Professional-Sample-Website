@@ -129,6 +129,7 @@ h2 {
 .content-container img {
   width: 500px;
 }
+
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 45px;
