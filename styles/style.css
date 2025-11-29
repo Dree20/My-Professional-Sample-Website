@@ -90,23 +90,23 @@ h2 {
   color: var(--third-color);
 }
 
-.hero-2 {
+.content-container {
   text-align: center;
   padding: 130px 20px;
 }
-.hero-2 h1 {
+.content-container h1 {
   font-size: 50px;
   color: var(--third-color);
   font-weight: 700;
   line-height: 1.5;
 }
-.hero-2 h2 {
+.content-container h2 {
   font-size: 30px;
   color: var(--branding-color);
   font-weight: 500;
   line-height: 1.5;
 }
-.hero-2 p {
+.content-container p {
   font-size: 22px;
   color: var(--branding-color);
   font-weight: 400;
@@ -121,6 +121,13 @@ h2 {
 .about-image {
   width: 400px;
   border-radius: 4px;
+}
+.content-container p {
+  color: var(--third-color);
+  font-size: 15px;
+}
+.content-container img {
+  width: 500px;
 }
 @media (max-width: 900px) {
   .hero h1 {
@@ -148,19 +155,19 @@ h2 {
     margin: 10px;
     padding: 20px;
   }
-  .hero-2 h1 {
+  .content-container h1 {
     font-size: 40px;
     color: var(--third-color);
     font-weight: 700;
     line-height: 1.5;
   }
-  .hero-2 h2 {
+  .content-container h2 {
     font-size: 20px;
     color: var(--branding-color);
     font-weight: 500;
     line-height: 1.5;
   }
-  .hero-2 p {
+  .content-container p {
     font-size: 15px;
     color: var(--branding-color);
     font-weight: 400;
