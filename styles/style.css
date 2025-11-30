@@ -37,7 +37,7 @@ h4 {
 .hero {
   background-color: #ede6fc;
   text-align: center;
-  padding: 130px 20px;
+  padding: 60px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -63,7 +63,7 @@ h4 {
   background-color: var(--branding-color);
   font-size: 18px;
   color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--branding-color);
   border-radius: 4px;
   margin-bottom: 15px;
   line-height: 1.5;
@@ -96,7 +96,7 @@ h4 {
 
 .content-container {
   text-align: center;
-  padding: 130px 20px;
+  padding: 60px 20px;
 }
 .content-container h1 {
   font-size: 50px;
@@ -136,8 +136,20 @@ h4 {
   border-radius: 4px;
   padding: 20px;
   max-width: 600px;
-  margin: 60px auto;
+  margin: 30px auto;
   text-align: center;
+}
+.design a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.name {
+  color: black;
+}
+.git-link {
+  text-decoration: none;
+  color: black;
 }
 .logo {
   max-height: 40px;
@@ -159,7 +171,7 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  color: var(--branding-color);
+  color: black;
   font-weight: 500;
   transition: all 100ms ease-in-out;
 }
@@ -257,5 +269,8 @@ footer .social-links a:hover {
   .about-image {
     display: block;
     margin: 0 auto;
+  }
+  .email-link {
+    margin-top: 30px;
   }
 }
