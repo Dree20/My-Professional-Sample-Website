@@ -30,8 +30,8 @@ h3 {
   font-family: var(--head-font);
 }
 .subtitle-1 {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 40px;
+  font-weight: 300;
   color: var(--third-color);
 }
 .hero {
@@ -105,7 +105,7 @@ h3 {
   line-height: 1.5;
 }
 .content-container h2 {
-  font-size: 30px;
+  font-size: 40px;
   color: var(--branding-color);
   font-weight: 500;
   line-height: 1.5;
@@ -130,7 +130,9 @@ h3 {
 
 .content-container p {
   color: var(--third-color);
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 50px;
 }
 .design {
   border: 2px solid var(--third-color);
@@ -261,9 +263,13 @@ footer .social-links a:hover {
   .container {
     text-align: center;
   }
-  .img-fluid {
+  .container img {
+    box-shadow: none;
+  }
+  .content-container img {
     margin: 10px;
     padding: 20px;
+    box-shadow: none;
   }
   .content-container h1 {
     font-size: 30px;
@@ -271,14 +277,12 @@ footer .social-links a:hover {
     line-height: 1.5;
   }
   .content-container h2 {
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 500;
     line-height: 1.5;
   }
   .content-container p {
-    font-size: 11px;
-    font-weight: 400;
-    margin-top: 50px;
+    font-size: 15px;
   }
 
   .about-me {
@@ -290,9 +294,11 @@ footer .social-links a:hover {
     text-align: center;
   }
   .about-image {
-    display: block;
-    margin: 0 auto;
     margin-top: 10px;
+    width: 150px;
+  }
+  .content-container img {
+    width: 325px;
   }
   .email-link {
     margin-top: 20px;
