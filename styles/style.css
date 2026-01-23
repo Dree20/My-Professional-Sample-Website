@@ -18,7 +18,7 @@ p {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 28px;
   color: var(--branding-color);
   font-weight: 400;
 }
@@ -30,14 +30,14 @@ h3 {
   font-family: var(--head-font);
 }
 .subtitle-1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 300;
   color: var(--third-color);
 }
 .hero {
   background-color: #ede6fc;
   text-align: center;
-  padding: 60px 20px;
+  padding: 30px 10px;
 }
 .hero p {
   font-size: 36px;
@@ -46,14 +46,14 @@ h3 {
   font-weight: 300;
 }
 .hero h1 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 500;
   font-style: normal;
   line-height: 1.5;
   color: var(--branding-color);
 }
 .hero h2 {
-  font-size: 40px;
+  font-size: 38px;
   line-height: 2;
   font-weight: 500;
   color: var(--third-color);
@@ -61,13 +61,13 @@ h3 {
 
 .btn-branding {
   background-color: var(--branding-color);
-  font-size: 18px;
+  font-size: 15px;
   color: var(--secondary-color);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   margin-bottom: 15px;
   line-height: 1.5;
-  padding: 13px 20px;
+  padding: 10px 15px;
   cursor: pointer;
 }
 .btn-branding:hover {
@@ -80,13 +80,13 @@ h3 {
 }
 
 .btn-branding-outline {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   color: var(--branding-color);
   border: 2px solid var(--branding-color);
   border-radius: 4px;
   line-height: 1.5;
-  padding: 13px 20px;
+  padding: 10px 15px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 .btn-branding-outline:hover {
@@ -244,6 +244,9 @@ footer .social-links a:hover {
   footer .email-link {
     font-size: 16px;
   }
+  .hero {
+    padding: 5px;
+  }
   .hero h1 {
     font-size: 25px;
     font-weight: 500;
@@ -252,10 +255,11 @@ footer .social-links a:hover {
     margin: 0;
   }
   .hero h2 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .btn-branding {
     font-size: 10px;
+    padding: 8px 10px;
   }
   .btn-branding-outline {
     font-size: 10px;
