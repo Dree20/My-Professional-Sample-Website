@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -39,22 +39,6 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a
-          href="https://www.shecodes.io/graduates/174131-dreanna-adams-duke"
-          target="_blank"
-          title="Visit my profile"
-        >
-          <img
-            src="images/logo.png"
-            alt="shecodes-logo "
-            class="logo d-none d-md-block"
-          />
-        </a>
-        <img
-          src="images/logo-small.jpg"
-          alt="small-logo"
-          class="logo d-block d-md-none"
-        />
         <ul>
           <li class="active">
             <a href="/" title="Homepage">Home </a>
@@ -65,18 +49,16 @@
           <li>
             <a href="projects.html" title="Projects">Projects</a>
           </li>
-          <li><a href="contact.html" title="Contact Dreanna">Contact</a></li>
+          <li><a href="#important" title="Contact Dreanna">Contact</a></li>
         </ul>
       </nav>
     </div>
     <div class="hero">
       <h1 class="mt-3">Dreanna Adams-Duke</h1>
-      <h2 class="mt-3 mb-3 subtitle">
-        Simple•Clean•Functional
-      </h2>
+      <h2 class="mt-3 mb-3 subtitle">Simple•Clean•Functional</h2>
       <div>
         <a
-          href="contact.html"
+          href="#important"
           class="btn btn-branding mt-3"
           title="Contact Dreanna "
           >Get in touch</a
@@ -86,18 +68,15 @@
     <p class="text-center m-5 subtitle-1">My Featured Projects</p>
     <div class="container">
       <div class="row mb-3">
-        <div class="col-6">
+        <div class="col-4">
           <img
             src="images/Screenshot 2026-01-08 155602.png"
             alt="Dictionary project"
             class="img-fluid mt-3"
           />
-        </div>
-        <div class="col-6">
           <h2 class="mt-3 mb-3">Dictionary Project</h2>
           <p class="mb-3">
-            This is a dictionary search engine. One can search for any word.
-            This was built with React.js,JSX and Bootstrap with the integration
+            This is a dictionary search engine that was built with React.js, JSX and Bootstrap with the integration
             of a dictionary API and an images API.
           </p>
           <a
@@ -108,13 +87,16 @@
             >Learn More</a
           >
         </div>
-      </div>
-
-      <div class="row mb-3">
-        <div class="col-6">
-          <h2 class="mt-5 mb-3">Travel Project</h2>
+  
+        <div class="col-4">
+          <img
+            src="images/Screenshot 2026-01-07 155653.png"
+            alt="Greece-Travel-Project"
+            class="img-fluid mt-3"
+          />
+           <h2 class="mt-3 mb-3">Travel Project</h2>
           <p class="mb-3">
-            This a travel landing page. This is a Responsive website built with
+            This a responsive travel landing page that was built with
             HTML5, CSS as well as embedded YouTube videos and Google Maps.
           </p>
           <a
@@ -125,27 +107,15 @@
             >Learn More</a
           >
         </div>
-        <div class="col-6">
-          <img
-            src="images/Screenshot 2026-01-07 155653.png"
-            alt="Greece-Travel-Project"
-            class="img-fluid mt-5"
-          />
-        </div>
-      </div>
-      <div class="row mb-3">
-        <div class="col-6">
+        <div class="col-4">
           <img
             src="images/Screenshot 2025-11-26 164744.png"
             alt="Weather App Project"
-            class="img-fluid mt-5 mb-5"
+            class="img-fluid mt-3"
           />
-        </div>
-        <div class="col-6">
-          <h2 class="mt-5 mb-3">Weather App Project</h2>
+          <h2 class="mt-3 mb-3">Weather App Project</h2>
           <p class="mb-3">
-            This is a weather search engine. One can search for the weather in
-            any city. This was built with HTML5, JavaScript, CSS and integrated
+            This is a weather search engine that was built with HTML5, JavaScript, CSS and integrated
             API.
           </p>
           <a
@@ -156,26 +126,10 @@
             >Learn More</a
           >
         </div>
-      </div>
       <footer>
-        <div
-          class="contact-box d-flex justify-content-between mb-3 d-none d-md-flex"
-        >
-          <div>
-            <h3>Work Inquiry</h3>
-            <p>Looking forward to hearing from you!</p>
-          </div>
-          <div>
-            <a
-              href="contact.html"
-              class="btn btn-branding mt-3"
-              title="Contact Dreanna"
-              >Contact me</a
-            >
-          </div>
-        </div>
+        
         <div class="d-flex justify-content-center mt-5 mb-3">
-          <div class="email-link">dreannaad@hotmail.com</div>
+          <div class="email-link" id="important">dreannaad@hotmail.com</div>
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
           <a
@@ -194,7 +148,7 @@
           ></a>
         </div>
         <div>
-          <p class="text-center mb-5">
+          <p class="text-center mb-5 connect">
             This was created by
             <span class="name"> Dreanna Adams-Duke </span>with 💜and is
             <a
