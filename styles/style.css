@@ -300,6 +300,7 @@ footer .social-links a:hover {
   }
   .content-container .project {
     transition: none;
+    margin-top: 0px;
   }
   .content-container .project:hover {
     transform: none;
