@@ -26,13 +26,42 @@ h3 {
   font-size: 48px;
   color: var(--branding-color);
 }
-.subtitle {
-  font-family: var(--head-font);
+nav {
+  padding: 20px 0;
 }
-.subtitle-1 {
-  font-size: 30px;
-  font-weight: 300;
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
   color: var(--third-color);
+}
+footer .social-links a {
+  margin: 10px;
+  color: var(--branding-color);
+  background-color: #ede6fc;
+  font-size: 18px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
 }
 .hero {
   background-color: #ede6fc;
@@ -74,15 +103,19 @@ h3 {
   background-color: var(--secondary-color);
   color: var(--branding-color);
 }
-.img-fluid {
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
+.subtitle {
+  font-family: var(--head-font);
 }
-.container {
-  text-align: center;
+.subtitle-1 {
+  font-size: 30px;
+  font-weight: 300;
+  color: var(--third-color);
 }
+
 .container img {
   width: 400px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
 }
 .btn-branding-outline {
   font-size: 13px;
@@ -98,7 +131,6 @@ h3 {
   background-color: var(--branding-color);
   color: var(--third-color);
 }
-
 .content-container {
   text-align: center;
   padding: 60px 20px;
@@ -115,6 +147,11 @@ h3 {
   font-weight: 500;
   line-height: 1.5;
 }
+.content-container img {
+  width: 350px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
 .greeting {
   font-size: 22px;
   color: var(--branding-color);
@@ -126,30 +163,11 @@ h3 {
   font-weight: 500;
   line-height: 1.5;
 }
-.content-container img {
-  width: 350px;
-  border-radius: 4px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-}
 .content-container .project {
   transition: all 250ms ease-in-out;
 }
 .content-container .project:hover {
   transform: scale(1.5);
-}
-
-.design {
-  border: 2px solid var(--third-color);
-  border-radius: 4px;
-  padding: 20px;
-  max-width: 600px;
-  margin: 30px auto;
-  text-align: center;
-}
-.design a {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
 }
 .name {
   color: black;
@@ -161,54 +179,11 @@ h3 {
 .git-link:hover {
   color: var(--branding-color);
 }
-.logo {
-  max-height: 40px;
-}
 
-nav {
-  padding: 20px 0;
-}
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 15px;
-}
-nav a {
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-  transition: all 100ms ease-in-out;
-}
-nav a:hover,
-nav li.active a {
-  color: var(--third-color);
-}
-footer .social-links a {
-  margin: 10px;
-  color: var(--branding-color);
-  background-color: #ede6fc;
-  font-size: 18px;
-  padding: 10px 14px;
-  border-radius: 50%;
-  transition: all 100ms ease-in-out;
-}
-footer .social-links a:hover {
-  color: var(--secondary-color);
-  background-color: var(--branding-color);
-}
 @media (max-width: 900px) {
   h2 {
     font-size: 20px;
     font-weight: 400;
-  }
-  h4 {
-    font-size: 18px;
   }
   p {
     line-height: 1.25;
@@ -241,9 +216,6 @@ footer .social-links a:hover {
   .subtitle-1 {
     font-size: 18px;
     margin: 15px;
-  }
-  .container {
-    text-align: center;
   }
   .container img {
     box-shadow: none;
