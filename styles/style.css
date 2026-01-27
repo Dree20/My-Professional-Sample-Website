@@ -169,6 +169,7 @@ footer .social-links a:hover {
 .content-container .project:hover {
   transform: scale(1.5);
 }
+
 .name {
   color: black;
 }
